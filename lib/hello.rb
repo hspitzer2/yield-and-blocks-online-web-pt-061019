@@ -7,6 +7,6 @@ def hello_t(array)
     yield(array[i])
     i = i + 1
   end
-    yield(array[i])
+    puts "Hey! No block was given!\n"
   array
 end
